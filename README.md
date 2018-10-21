@@ -1,5 +1,4 @@
 # ScisTree
-Cell tree inference and genotype calling from noisy single cell data. 
 
 ScisTree is a computer program for inferring cell tree and calling genotypes from uncertain single cell genotype data. If you use ScisTree, please cite: 
 
