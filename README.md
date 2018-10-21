@@ -6,7 +6,7 @@ Accurate and Efficient Cell Tree Inference and Genotype Calling from Noisy Singl
 
 The key feature of ScisTree is that it works with uncertain genotypes with individualized probability. That is, you can specify for each genotype (at a row/cell or column/site) different probabilities of being a particular genotype state. ScisTree allows both binary or ternary genotypes. Here is an example for binary genotypes. Note: don't include blank rows in the input genotype file.
 
-# This is an example for binary genotypes.
+This is an example for binary genotypes.
 HAPLOID 5 4
 
 0.8 0.02 0.8 0.8
@@ -21,7 +21,7 @@ HAPLOID 5 4
 
 The first line specifies the type of genotypes (HAPLOID or TERNARY), number of sites and number of cells. Lines started with # are ignored by ScisTree. You should have one line for each site. For each line, specify the probability of being genotype 0 (for binary genotypes) or being 0 and 1 (consecutively for ternary genotypes) for each cells. For example, in the above example, the first 0.8 on the first row means this genotype is equal to 0 with probability 0.8. Here is an example for ternary genotypes.
 
-# This is an example for ternary genotypes.
+This is an example for ternary genotypes.
 TERNARY 5 4
 
 0.8 0.05 0.02 0.1 0.8 0.05 0.8 0.01
