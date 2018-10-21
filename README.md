@@ -50,3 +50,6 @@ This would infer a cell tree based on maximum likelihood. If you want to impute 
 ./scistree -v example.dat
 
 Refer to the user manual for more details on how to use ScisTree.
+
+# Code release, October 21, 2018
+At present, only pre-built executables for Linux 64 and Mac are posted, along with example input files and user manual. I plan to release the source code of ScisTree soon. If you encounter problems with the code or you want to get the source code now, please contact me.
