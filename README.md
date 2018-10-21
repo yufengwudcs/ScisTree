@@ -5,10 +5,15 @@ ScisTree is a computer program for inferring cell tree and calling genotypes fro
 
 # This is an example for binary genotypes.
 HAPLOID 5 4
+
 0.8 0.02 0.8 0.8
+
 0.02 0.02 0.02 0.8
+
 0.8 0.02 0.02 0.8
+
 0.02 0.8 0.8 0.8
+
 0.8 0.02 0.8 0.02
 
 The first line specifies the type of genotypes (HAPLOID or TERNARY), number of sites and number of cells. Lines started with # are ignored by ScisTree. You should have one line for each site. For each line, specify the probability of being genotype 0 (for binary genotypes) or being 0 and 1 (consecutively for ternary genotypes) for each cells. For example, in the above example, the first 0.8 on the first row means this genotype is equal to 0 with probability 0.8. Here is an example for ternary genotypes.
