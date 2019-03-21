@@ -51,5 +51,7 @@ This would infer a cell tree based on maximum likelihood. If you want to impute 
 
 Refer to the user manual for more details on how to use ScisTree.
 
-# Code release, October 21, 2018
-At present, only pre-built executables for Linux 64 and Mac are posted, along with example input files and user manual. I plan to release the source code of ScisTree soon. If you encounter problems with the code or you want to get the source code now, please contact me.
+# Code release, March 20, 2019
+The main change in this code release is that ScisTree now allows to discard some genotypes when constructing initial trees. Simulation shows that this can be useful when data contains significant noise. In this case, using only more reliable genotypes can improve the quality of initial trees.
+
+I have released the source code of ScisTree soon. To build it, simply de-compress it and then type "make" from the source code directory. That should be all you need.
