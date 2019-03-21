@@ -2,7 +2,7 @@
 
 ScisTree is a computer program for inferring cell tree and calling genotypes from uncertain single cell genotype data. If you use ScisTree, please cite: 
 
-Accurate and Efficient Cell Tree Inference and Genotype Calling from Noisy Single Cell Data: the Maximum Likelihood Perfect Phylogeny Approach, Yufeng Wu, manuscript, 2018.
+Accurate and Efficient Cell Lineage Tree Inference from Noisy Single Cell Data: the Maximum Likelihood Perfect Phylogeny Approach, Yufeng Wu, manuscript, 2019.
 
 The key feature of ScisTree is that it works with uncertain genotypes with individualized probability. That is, you can specify for each genotype (at a row/cell or column/site) different probabilities of being a particular genotype state. ScisTree allows both binary or ternary genotypes. Here is an example for binary genotypes. Note: don't include blank rows in the input genotype file.
 
@@ -52,6 +52,6 @@ This would infer a cell tree based on maximum likelihood. If you want to impute 
 Refer to the user manual for more details on how to use ScisTree.
 
 # Code release, March 20, 2019
-The main change in this code release is that ScisTree now allows to discard some genotypes when constructing initial trees. Simulation shows that this can be useful when data contains significant noise. In this case, using only more reliable genotypes can improve the quality of initial trees.
+Current version is v.1.1.0. The main change in this code release is that ScisTree now allows to discard some genotypes when constructing initial trees. Simulation shows that this can be useful when data contains significant noise. In this case, using only more reliable genotypes can improve the quality of initial trees.
 
 I have released the source code of ScisTree soon. To build it, simply de-compress it and then type "make" from the source code directory. That should be all you need.
