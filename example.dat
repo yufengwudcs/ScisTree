@@ -1,7 +1,0 @@
-# This is an example for binary genotypes.
-HAPLOID 5 4
-0.8 0.02 0.8 0.8
-0.02 0.02 0.02 0.8
-0.8 0.02 0.02 0.8
-0.02 0.8 0.8 0.8
-0.8 0.02 0.8 0.02
