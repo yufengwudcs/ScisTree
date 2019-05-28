@@ -1,0 +1,7 @@
+# This is an example for binary genotypes.
+HAPLOID 5 4 c1 c2 c3 c4
+s1 0.8 0.02 0.8 0.8
+s2 0.02 0.02 0.02 0.8
+s3 0.8 0.02 0.02 0.8
+s4 0.02 0.8 0.8 0.8
+s5 0.8 0.02 0.8 0.02
