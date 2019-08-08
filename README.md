@@ -53,6 +53,7 @@ Refer to the user manual for more details on how to use ScisTree.
 
 # About sequence reads 
 A frequently asked question is how to deal with single cell sequence reads in order to use ScisTree. For your convenience, I have created a simple example with detailed instructions. To try this, you should download and unzip the two zipped files called SeqReadsTest.tar.gz and SeqReadsTest-sortbam.tar.gz. Unzipped these files and move the sorted bam files to the directory "SeqReadsTest". Then follow the instructions given in README.txt. It should be easy to try it out. Note: you will need the program Monovar and samtools to run the example. I would suggest you to first install and try to run Monovar before running this tuotiral.
+
 August 8, 2019: I was told the script "dumpCellReadCounts.awk" was missing from the distribution. I just uploaded this script to the main distribution directory. Download it to your working directory.
 
 # Code release, May 28, 2019
