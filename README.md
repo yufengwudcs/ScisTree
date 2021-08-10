@@ -60,3 +60,6 @@ August 29, 2019: I was told the script "dumpCellReadCounts.awk" was missing from
 Current version is v.1.2.0.6. The source code is in the file ScisTree-ver1.2.0.6-src.zip. There are sevreal changes since the previous release. First the input format is changed to allow user to specify cell and site names. Also, a main change in this code release is that ScisTree now allows to discard some genotypes when constructing initial trees. Simulation shows that this can be useful when data contains significant noise. In this case, using only more reliable genotypes can improve the quality of initial trees.
 
 I have released the source code of ScisTree. To build it, simply de-compress it and then type "make" from the source code directory. That should be all you need.
+
+# Branch length added, August 10, 2021
+I added a branch length option (-l). Please note that branch length is only for reference. 
