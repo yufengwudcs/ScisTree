@@ -62,4 +62,4 @@ Current version is v.1.2.0.6. The source code is in the file ScisTree-ver1.2.0.6
 I have released the source code of ScisTree. To build it, simply de-compress it and then type "make" from the source code directory. That should be all you need.
 
 # Branch length added, August 10, 2021
-I added a branch length option (-l). Please note that branch length is only for reference. 
+I added a branch length option (-l). Please note that branch length is only for reference. This option has been implemented before but I didn't advertise it. 
