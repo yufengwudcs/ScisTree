@@ -1,6 +1,6 @@
 # ScisTree
 
-# October 24, 2024: ScisTree2 is now available at https://github.com/yufengwudcs/ScisTree2
+**October 24, 2024: ScisTree2 is now available at https://github.com/yufengwudcs/ScisTree2**
 I highly recommend you to try ScisTree2. Our tests show that it is much faster and more accurate than the original ScisTree.
 
 
