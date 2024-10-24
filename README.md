@@ -1,11 +1,11 @@
 # ScisTree
 
-**What is new?**
+## What is new?
 
 **October 24, 2024: ScisTree2 is now available at https://github.com/yufengwudcs/ScisTree2**
 I highly recommend you to try ScisTree2. Our tests show that it is much faster and more accurate than the original ScisTree.
 
-
+## Now for the original ScisTree...
 ScisTree is a computer program for inferring cell tree and calling genotypes from uncertain single cell genotype data. If you use ScisTree, please cite: 
 
 Accurate and Efficient Cell Lineage Tree Inference from Noisy Single Cell Data: the Maximum Likelihood Perfect Phylogeny Approach, Yufeng Wu, Bioinformatics, https://doi.org/10.1093/bioinformatics/btz676, 36(3):742-750, 2020.
